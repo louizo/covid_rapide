@@ -6,26 +6,23 @@ fork LAB-MI/attestation-deplacement-derogatoire-q4-2020
 
 ## Informations
 
-Ce patch permet de générer des attestations, sans perdre de temps à remplir ce satané formulaire.
+Ce patch permet de générer des attestations antidatées et valables en un clin d'œil sans passer par le formulaire.
 
-Le qrcode contient l'heure de création du fichier, remplacée par l'heure de sortie - 5 minutes.
-
-Les attestions générées sont donc prêtes à l'emploi et valables.
+Le qrcode contient l'heure de création du fichier, remplacée par l'heure de sortie moins 5 minutes.
 
 
 ## Utilisation
 
 - cliquer sur le lien ci-dessous
-- remplir le formulaire une bonne fois pour toutes
-- choisir le motif de sortie
-- choisir le nombre de minutes à retrancher de l'heure actuelle
-- ok
+- remplir le formulaire
+- renseigner le nombre de minutes à retrancher de l'heure actuelle
+- valider le formulaire
 - [iOs] page précédente
 - ajouter un raccourci à l'écran d'accueil
-- créer d'autres raccourcis selon le motif de sortie et l'adresse
+- créer d'autres raccourcis selon l'adresse et le motif de sortie
 
 
-[c'est par ici](https://nicopowa.github.io/covid_rapide/patch/gen.html)
+[le lien](https://nicopowa.github.io/covid_rapide/patch/gen.html)
 
 
 iOs affiche l'attestation directement dans Safari
@@ -69,7 +66,6 @@ fork de la version officielle +
 - une icône tricolore
 - formulaire pour les nuls
 - attestation générée par le navigateur
-- tout petit code, 1k script pdf, 2.7k formulaire
 - pas besoin de build
 - pas trop testé
 - hébergé sur github pages
@@ -86,7 +82,7 @@ https://github.com/LAB-MI/attestation-deplacement-derogatoire-q4-2020
 
 Version o.0
 
-codé Dimanche après-midi après une belle conversation Samedi nuit, puis quelques mises à jour
+codé Dimanche après-midi après une belle conversation Samedi nuit
 
 Licence MIT
 
