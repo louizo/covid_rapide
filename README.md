@@ -14,10 +14,7 @@ Le qrcode contient l'heure de création du fichier, remplacée par l'heure de so
 ## Utilisation
 
 - cliquer sur le lien ci-dessous
-- remplir le formulaire
-- renseigner le nombre de minutes à retrancher de l'heure actuelle
-- valider le formulaire
-- [iOs] page précédente
+- remplir et valider le formulaire
 - ajouter un raccourci à l'écran d'accueil
 - créer d'autres raccourcis selon l'adresse et le motif de sortie
 
@@ -66,7 +63,9 @@ fork de la version officielle +
 - une icône tricolore
 - formulaire pour les nuls
 - attestation générée par le navigateur
-- pas besoin de build
+- données stockées dans l'url du raccourci
+- pas de local storage
+- pas de build
 - pas trop testé
 - hébergé sur github pages
 

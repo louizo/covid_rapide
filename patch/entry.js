@@ -4,9 +4,16 @@ window.addEventListener("load", async () => {
 
 	document.body.innerHTML += "covid rapide<br/>initialisation du cluster<br/>";
 
-	let infos = Object.fromEntries(new URLSearchParams(location.search));
+	let params = new URLSearchParams(location.search);
+	if(params.has("no")) {
+		params.delete("no");
+		history.replaceState(null, null, "?" + params.toString());
+		document.body.innerHTML += "ajouter cette page à l'écran d'accueil";
+		return;
+	}
 
-	if(Object.keys(infos).length !== 9) return document.body.innerHTML += "info manquantes<br/>";
+	let infos = Object.fromEntries(new URLSearchParams(location.search));
+	if(Object.keys(infos).length < 9) return document.body.innerHTML += "info manquantes<br/>";
 	
 	document.body.innerHTML += "édition de l'attestation<br/>";
 
@@ -18,6 +25,6 @@ window.addEventListener("load", async () => {
 	link.download = "attestation-" + date.format("YYYY[-]MM[-]DD[_]HH[-]mm") + ".pdf";
 	link.click();
 
-	document.body.innerHTML += "ok<br/>";
+	document.body.innerHTML += "ok";
 	
 });

@@ -50,54 +50,60 @@
 				form.method = "get";
 				document.body.appendChild(form);
 
+				const genInput = (name, prompt) => {
+					
+					let input = document.createElement("input");
+					input.setAttribute("name", name);
+					input.setAttribute("required", "required");
+					input.setAttribute("placeholder", prompt);
+					return input;
+
+				};
+
+				const genSelect = (name, prompt) => {
+
+					let select = document.createElement("select");
+					select.setAttribute("name", name);
+					select.setAttribute("required", "required");
+					form.appendChild(select);
+
+					let placeholder = document.createElement("option");
+					placeholder.setAttribute("disabled", "disabled");
+					placeholder.setAttribute("selected", "selected");
+					placeholder.setAttribute("hidden", "hidden");
+					placeholder.value = "";
+					placeholder.text = prompt;
+					select.appendChild(placeholder);
+
+					let options = name === "motif" ?
+					["travail", "achats", "sante", "famille", "handicap", "sport_animaux", "convocation", "missions", "enfants"]
+					: [1, 2, 5, 10, 20, 30, 45, 60, 90, 120, 180]
+					
+					options.forEach(motif => {
+
+						let option = document.createElement("option");
+						option.value = option.text = motif;
+						select.appendChild(option);
+
+					});
+
+					return select;
+
+				};
+
 				[
 					{name: "lastname", prompt: "NOM"}, {name: "firstname", prompt: "PRENOM"}, 
 					{name: "birthday", prompt: "DATE DE NAISSANCE"}, {name: "placeofbirth", prompt: "VILLE DE NAISSANCE"}, 
 					{name: "address", prompt: "ADRESSE"}, {name: "zipcode", prompt: "CODE POSTAL"}, {name: "city", prompt: "VILLE"}, 
 					{name: "motif", prompt: "MOTIF"}, {name: "minutes", prompt: "ANTIDATAGE"}
 				]
-				.forEach(field => {
+				.forEach(field => form.appendChild((field.name === "motif" || field.name === "minutes" ? genSelect : genInput)(field.name, field.prompt)));
 
-					switch(field.name) {
-
-						case "motif": case "minutes":
-							let select = document.createElement("select");
-							select.setAttribute("name", field.name);
-							select.setAttribute("required", "required");
-							form.appendChild(select);
-
-							let prompt = document.createElement("option");
-							prompt.setAttribute("disabled", "disabled");
-							prompt.setAttribute("selected", "selected");
-							prompt.setAttribute("hidden", "hidden");
-							prompt.value = "";
-							prompt.text = field.prompt;
-							select.appendChild(prompt);
-
-							let options = field.name === "motif" ?
-							["travail", "achats", "sante", "famille", "handicap", "sport_animaux", "convocation", "missions", "enfants"]
-							: [1, 2, 5, 10, 20, 30, 45, 60, 90, 120, 180]
-							
-							options.forEach(motif => {
-
-								let option = document.createElement("option");
-								option.value = option.text = motif;
-								select.appendChild(option);
-
-							});
-							break;
-
-						default:
-							let input = document.createElement("input");
-							input.setAttribute("name", field.name);
-							input.setAttribute("required", "required");
-							input.setAttribute("placeholder", field.prompt);
-							form.appendChild(input);
-							break;
-
-					}
-					
-				});
+				let input = document.createElement("input");
+				input.setAttribute("name", "no");
+				input.setAttribute("type", "hidden");
+				input.value = 1;
+				form.appendChild(input);
 
 				let submit = document.createElement("input");
 				submit.setAttribute("type", "submit");
