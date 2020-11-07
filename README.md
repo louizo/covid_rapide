@@ -22,7 +22,7 @@ Le qrcode contient l'heure de création du fichier, remplacée par l'heure de so
 [le lien](https://nicopowa.github.io/covid_rapide/patch/gen.html)
 
 
-Rien que pour tes yeux : [Android](https://nicopowa.github.io/covid_rapide/patch/covid_rapide_android.mp4) / [iOs](https://nicopowa.github.io/covid_rapide/patch/covid_rapide_ios.mp4)
+Demo : [Android](https://nicopowa.github.io/covid_rapide/patch/covid_rapide_android.mp4) / [iOs](https://nicopowa.github.io/covid_rapide/patch/covid_rapide_ios.mp4)
 
 
 ## Exemples :
