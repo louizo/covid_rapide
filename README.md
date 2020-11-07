@@ -13,13 +13,16 @@ Le qrcode contient l'heure de création du fichier, remplacée par l'heure de so
 
 ## Utilisation
 
-- cliquer sur le lien ci-dessous
-- remplir et valider le formulaire
-- ![#FF0000](ajouter un raccourci à l'écran d'accueil)
-- créer d'autres raccourcis selon l'adresse et le motif de sortie
+- Cliquer sur le lien ci-dessous
+- Remplir et valider le formulaire
+- ![#FF0000](Ajouter un raccourci à l'écran d'accueil)
+- Créer d'autres raccourcis selon l'adresse et le motif de sortie
 
 
 [le lien](https://nicopowa.github.io/covid_rapide/patch/gen.html)
+
+
+Rien que pour tes yeux : [Android](https://nicopowa.github.io/covid_rapide/patch/covid_rapide_android.mp4) / [iOs](https://nicopowa.github.io/covid_rapide/patch/covid_rapide_ios.mp4)
 
 
 ## Exemples :
