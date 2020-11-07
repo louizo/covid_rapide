@@ -15,7 +15,7 @@ Le qrcode contient l'heure de création du fichier, remplacée par l'heure de so
 
 - cliquer sur le lien ci-dessous
 - remplir et valider le formulaire
-- ajouter un raccourci à l'écran d'accueil
+- ![#FF0000](ajouter un raccourci à l'écran d'accueil)
 - créer d'autres raccourcis selon l'adresse et le motif de sortie
 
 
@@ -45,6 +45,9 @@ et souhaite prolonger cet instant de liberté de 45 minutes*
 *M. Dupont aperçoit des agents de police en pleine frénésie de contrôle et n'a pas son attestation.*
 
 *Pas de panique ! Il clique sur le raccourci et l'attestation valable s'affiche instantanément à l'écran.*
+
+
+![shortcuts_screenshot](https://nicopowa.github.com/covid_rapide/patch/shortcuts.jpg)
 
 
 ## Fonctionnalités
