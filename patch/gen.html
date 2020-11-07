@@ -99,11 +99,10 @@
 				]
 				.forEach(field => form.appendChild((field.name === "motif" || field.name === "minutes" ? genSelect : genInput)(field.name, field.prompt)));
 
-				let input = document.createElement("input");
-				input.setAttribute("name", "no");
-				input.setAttribute("type", "hidden");
-				input.value = 1;
-				form.appendChild(input);
+				let nodl = genInput("no", "");
+				nodl.setAttribute("type", "hidden");
+				nodl.value = 1;
+				form.appendChild(nodl);
 
 				let submit = document.createElement("input");
 				submit.setAttribute("type", "submit");

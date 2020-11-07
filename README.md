@@ -22,11 +22,6 @@ Le qrcode contient l'heure de création du fichier, remplacée par l'heure de so
 [le lien](https://nicopowa.github.io/covid_rapide/patch/gen.html)
 
 
-iOs affiche l'attestation directement dans Safari
-
-Android télécharge le fichier pdf
-
-
 ## Exemples :
 
 *Bob va faire ses courses*

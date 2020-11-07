@@ -8,7 +8,7 @@ window.addEventListener("load", async () => {
 	if(params.has("no")) {
 		params.delete("no");
 		history.replaceState(null, null, "?" + params.toString());
-		document.body.innerHTML += "ajouter cette page à l'écran d'accueil";
+		document.body.innerHTML += "<font color=\"red\" size=\"+3\">ajouter cette page à l'écran d'accueil</font>";
 		return;
 	}
 
