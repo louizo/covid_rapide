@@ -15,7 +15,7 @@ Le qrcode contient l'heure de création du fichier, remplacée par l'heure de so
 
 - Cliquer sur le lien ci-dessous
 - Remplir et valider le formulaire
-- ![#FF0000](Ajouter un raccourci à l'écran d'accueil)
+- **Ajouter un raccourci à l'écran d'accueil**
 - Créer d'autres raccourcis selon l'adresse et le motif de sortie
 
 
