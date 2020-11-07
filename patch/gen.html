@@ -78,7 +78,7 @@
 
 					let options = name === "motif" ?
 					["travail", "achats", "sante", "famille", "handicap", "sport_animaux", "convocation", "missions", "enfants"]
-					: [1, 2, 5, 10, 20, 30, 45, 60, 90, 120, 180]
+					: [1, 2, 5, 10, 15, 20, 30, 45, 60]
 					
 					options.forEach(motif => {
 
@@ -93,9 +93,9 @@
 				};
 
 				[
-					{name: "lastname", prompt: "Smith"}, {name: "firstname", prompt: "Alice"}, 
-					{name: "birthday", prompt: "01/01/1970"}, {name: "placeofbirth", prompt: "Alice's Hometown"}, 
-					{name: "address", prompt: "1 (Alice || Bob)'s Street"}, {name: "zipcode", prompt: "75♾️♾️♾️"}, {name: "city", prompt: "Alice's City of Lights"}, 
+					{name: "lastname", prompt: "Nom"}, {name: "firstname", prompt: "Prénom"}, 
+					{name: "birthday", prompt: "Date de naissance JJ/MM/AAAA"}, {name: "placeofbirth", prompt: "Ville de naissance"}, 
+					{name: "address", prompt: "Adresse"}, {name: "zipcode", prompt: "75♾️♾️♾️"}, {name: "city", prompt: "Ville"}, 
 					{name: "motif", prompt: "Motif"}, {name: "minutes", prompt: "Antidatage (minutes)"}
 				]
 				.forEach(field => form.appendChild((field.name === "motif" || field.name === "minutes" ? genSelect : genInput)(field.name, field.prompt)));

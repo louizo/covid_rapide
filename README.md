@@ -29,12 +29,12 @@ Rien que pour tes yeux : [Android](https://nicopowa.github.io/covid_rapide/patch
 
 *Bob va faire ses courses*
 
-[attestation Bob](https://nicopowa.github.io/covid_rapide?lastname=Smith&firstname=Bob&birthday=01/01/1970&placeofbirth=Bob%27s%20hometown&address=1%20Bob%27s%20street&zipcode=75000&city=Bob%27s%20city&motif=achats&minutes=5)
+[attestation Bob](https://nicopowa.github.io/covid_rapide?lastname=Smith&firstname=Bob&birthday=01/01/1970&placeofbirth=Bob%27s%20Hometown&address=1%20Bob%27s%20Street&zipcode=75000&city=Bob%27s%20City&motif=achats&minutes=5)
 
 
 *Alice va au travail car c'est plus ou moins la seule activité autorisée*
 
-[attestation Alice](https://nicopowa.github.io/covid_rapide?lastname=Smith&firstname=Alice&birthday=01/01/1970&placeofbirth=Alice%27s%20hometown&address=1%20Alice%27s%20street&zipcode=75000&city=Alice%27s%20city&motif=travail&minutes=5)
+[attestation Alice](https://nicopowa.github.io/covid_rapide?lastname=Smith&firstname=Alice&birthday=01/01/1970&placeofbirth=Alice%27s%20Hometown&address=1%20Alice%27s%20Street&zipcode=75000&city=Alice%27s%20City&motif=travail&minutes=5)
 
 
 ## Mauvais exemples :
@@ -42,7 +42,7 @@ Rien que pour tes yeux : [Android](https://nicopowa.github.io/covid_rapide/patch
 *Eve se promène avec une personne qui lui plaît depuis presque une heure
 et souhaite prolonger cet instant de liberté de 45 minutes*
 
-[attestation Eve](https://nicopowa.github.io/covid_rapide?lastname=Smith&firstname=Eve&birthday=01/01/1970&placeofbirth=Eve%27s%20hometown&address=1%20Eve%27s%20street&zipcode=75000&city=Eve%27s%20city&motif=sport_animaux&minutes=15)
+[attestation Eve](https://nicopowa.github.io/covid_rapide?lastname=Smith&firstname=Eve&birthday=01/01/1970&placeofbirth=Eve%27s%20Hometown&address=1%20Eve%27s%20Street&zipcode=75000&city=Eve%27s%20City&motif=sport_animaux&minutes=15)
 
 
 *M. Dupont aperçoit des agents de police en pleine frénésie de contrôle et n'a pas son attestation.*
